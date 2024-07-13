@@ -5,8 +5,6 @@
     padding:0;
 }
 /* shared items list */
-
-
 .azeret-mono-font {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -57,7 +55,6 @@ p{
 .btn input{
         padding: 20px;
 }
-
 /* shared items list */
 /* header part start */
 header{
@@ -74,6 +71,7 @@ header{
     background-size: cover;
     width: 100%;
     min-height: 652px;
+    margin-top: 50px;
 }
 .banner-content{
     display: flex;
@@ -190,6 +188,13 @@ margin: 70px 150px auto;
     border-radius: 16px;    
     background: rgb(255, 255, 255);
     padding:24px auto;
+    display: flex;
+    gap: 24px;
+    margin: 20px;
+
+}
+.next-target-list-img {
+    padding: 25px;
 }
 /* next-target end  */
 /* support content start  */
@@ -200,10 +205,40 @@ margin: 70px 150px auto;
     background-size: cover;
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
-    min-height: 314px;
+    min-height: 314px;    
+
 }
 .support{
-    text-align: center;      
+    text-align: center;
+}
+.support h2{
+    padding-top: 64px;
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+}
+.support p{
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+}
+.contact{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;    
+}
+.contact-placeholder{
+        text-align: center;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-size: 20px;
+        
+}
+.submit-button{
+font-size: 20px;
+padding:  20px;
+text-align: center;
+font-weight: 600;
+
 }
 /* support content end  */
 /* footer start  */
@@ -215,9 +250,6 @@ justify-content:space-between;
 padding: 32px 150px;
 background-color: rgba(13, 19, 33, 0.03);
 }
-footer nav{
-    
-}
 footer nav ul{
     display: flex;
 }
@@ -225,5 +257,4 @@ footer nav ul li{
     list-style: none;
     padding: 0 24px;
 }
-
 /* footer end  */
